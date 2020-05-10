@@ -3,6 +3,8 @@ module github.com/jaegertracing/jaeger
 go 1.14
 
 require (
+	github.com/ClickHouse/clickhouse-go v1.4.1-0.20200504172624-7b0f96ec3e5c
+	github.com/DATA-DOG/go-sqlmock v1.4.1
 	github.com/DataDog/zstd v1.4.4 // indirect
 	github.com/HdrHistogram/hdrhistogram-go v0.9.0 // indirect
 	github.com/Shopify/sarama v1.22.2-0.20190604114437-cd910a683f9f
